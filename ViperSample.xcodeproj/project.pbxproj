@@ -15,6 +15,8 @@
 		BF5ABE17242255AE009C19A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5ABE15242255AE009C19A4 /* LaunchScreen.storyboard */; };
 		BF5ABE22242255AE009C19A4 /* ViperSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5ABE21242255AE009C19A4 /* ViperSampleTests.swift */; };
 		BF5ABE2D242255AE009C19A4 /* ViperSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5ABE2C242255AE009C19A4 /* ViperSampleUITests.swift */; };
+		BF5ABE3E2424BF18009C19A4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5ABE3C2424BF18009C19A4 /* TableViewCell.swift */; };
+		BF5ABE3F2424BF18009C19A4 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF5ABE3D2424BF18009C19A4 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BF5ABE28242255AE009C19A4 /* ViperSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViperSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5ABE2C242255AE009C19A4 /* ViperSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperSampleUITests.swift; sourceTree = "<group>"; };
 		BF5ABE2E242255AE009C19A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5ABE3C2424BF18009C19A4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BF5ABE3D2424BF18009C19A4 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				BF5ABE0A242255AB009C19A4 /* AppDelegate.swift */,
 				BF5ABE0C242255AB009C19A4 /* SceneDelegate.swift */,
 				BF5ABE0E242255AB009C19A4 /* ViewController.swift */,
+				BF5ABE3C2424BF18009C19A4 /* TableViewCell.swift */,
+				BF5ABE3D2424BF18009C19A4 /* TableViewCell.xib */,
 				BF5ABE10242255AB009C19A4 /* Main.storyboard */,
 				BF5ABE13242255AE009C19A4 /* Assets.xcassets */,
 				BF5ABE15242255AE009C19A4 /* LaunchScreen.storyboard */,
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5ABE17242255AE009C19A4 /* LaunchScreen.storyboard in Resources */,
+				BF5ABE3F2424BF18009C19A4 /* TableViewCell.xib in Resources */,
 				BF5ABE14242255AE009C19A4 /* Assets.xcassets in Resources */,
 				BF5ABE12242255AB009C19A4 /* Main.storyboard in Resources */,
 			);
@@ -260,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5ABE0F242255AB009C19A4 /* ViewController.swift in Sources */,
+				BF5ABE3E2424BF18009C19A4 /* TableViewCell.swift in Sources */,
 				BF5ABE0B242255AB009C19A4 /* AppDelegate.swift in Sources */,
 				BF5ABE0D242255AB009C19A4 /* SceneDelegate.swift in Sources */,
 			);
